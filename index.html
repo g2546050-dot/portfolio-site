@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpore" content=""width=device-width, initial-scale="1.0">
+        <title>Yuine Sugiura</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#top">Yuine Sugiura</a><br>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <img src="./media/1600w-OjN90bLFyfc.jpg" width="100%">
+                <h1>
+                Yuine Sugiura<br>
+                Portfolio
+                </h1>
+            </section>
+            <section id="about">
+               <h3>About</h3>
+                <p>
+                    杉浦 結音<br>
+                    東京都市大学 デザイン・データ科学部
+                </p>
+                <p>
+                    デザイン・データ科学科 2年<br>
+                    専門・スキルなし
+                </p> 
+            </section>
+            <section id="works" class="works">
+             <h3>works</h3>
+             <div id="works-controls">
+                <select id="category">
+                    <option value="all">すべてのカテゴリ</option>
+                </select>
+                <select id="sort">
+                    <option value="new">新しい順</option>
+                    <option value="new">古い順</option>
+                    <option value="new">タイトル順</option>
+                </select>
+             </div>
+             <div id="works-grid"></div>
+            </section>
+        </main>
+        <footer>
+            <span>ⓒ 2026 Yuine Sugiura </span>
+        </footer>
+        <script src="works.js"></script>
+    </body>
+</html>
